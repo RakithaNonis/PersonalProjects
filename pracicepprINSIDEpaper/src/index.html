@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Praciceppr</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <script>
+
+    var numbers = ["What is 1 + 1?<br /><button class=blue_button id=hide1 onclick=ans1()>2</button><br /><button class=blue_button id=hide2 onclick=ans2()>4</button><br />",
+
+    "What is 2 + 2?<br /><button class=blue_button id=hide1 onclick=ans1()>4</button><br /><button class=blue_button id=hide2 onclick=ans2()>3</button><br />",
+
+    "What is 2 * 2?<br /><button class=blue_button id=hide1 onclick=ans1()>4</button><br /><button class=blue_button id=hide2 onclick=ans2()>3</button><br />",
+
+    "What is 3 + 3?<br /><button class=blue_button id=hide2 onclick=ans2()>5</button><br /><button class=blue_button id=hide1 onclick=ans1()>6</button><br />",
+
+    "What is 4 + 4?<br /><button class=blue_button id=hide1 onclick=ans1()>8</button><br /><button class=blue_button id=hide2 onclick=ans2()>7</button><br />",
+
+    "What is 5 + 5?<br /><button class=blue_button id=hide2 onclick=ans2()>9</button><br /><button class=blue_button id=hide1 onclick=ans1()>10</button><br />",
+
+    "What is 6 + 6?<br /><button class=blue_button id=hide1 onclick=ans1()>12</button><br /><button class=blue_button id=hide2 onclick=ans2()>14</button><br />",
+
+    "What is 7 + 7?<br /><button class=blue_button id=hide1 onclick=ans1()>14</button><br /><button class=blue_button id=hide2 onclick=ans2()>13</button><br />",
+
+    "What is 8 + 8?<br /><button class=blue_button id=hide2 onclick=ans2()>15</button><br /><button class=blue_button id=hide1 onclick=ans1()>16</button><br />",
+
+    "What is 9 + 9?<br /><button class=blue_button id=hide2 onclick=ans2()>17</button><br /><button class=blue_button id=hide1 onclick=ans1()>18</button><br />",
+
+    "What is 0 + 1?<br /><button class=blue_button id=hide2 onclick=ans2()>7</button><br /><button class=blue_button id=hide1 onclick=ans1()>1</button><br />",
+
+    "What is 10 + 10?<br /><button class=blue_button id=hide2 onclick=ans2()>9</button><br /><button class=blue_button id=hide1 onclick=ans1()>20</button><br />",
+    
+    
+
+    "What is 100 + 1?<br /><button class=blue_button id=hide1 onclick=ans1()>101</button><br /><button class=blue_button id=hide2 onclick=ans2()>105</button><br />",
+
+    "What is 20 / 2?<br /><button class=blue_button id=hide1 onclick=ans1()>10</button><br /><button class=blue_button id=hide2 onclick=ans2()>2</button><br />",
+
+    "What is 2 * 9?<br /><button class=blue_button id=hide1 onclick=ans1()>18</button><br /><button class=blue_button id=hide2 onclick=ans2()>14</button><br />",
+
+    "What is 3 * 4?<br /><button class=blue_button id=hide2 onclick=ans2()>11</button><br /><button class=blue_button id=hide1 onclick=ans1()>12</button><br />",
+
+    "What is 100 / 4?<br /><button class=blue_button id=hide1 onclick=ans1()>25</button><br /><button class=blue_button id=hide2 onclick=ans2()>17</button><br />",
+
+    "What is 5 + 6?<br /><button class=blue_button id=hide2 onclick=ans2()>10</button><br /><button class=blue_button id=hide1 onclick=ans1()>11</button><br />",
+
+    "What is 6 * 6?<br /><button class=blue_button id=hide1 onclick=ans1()>36</button><br /><button class=blue_button id=hide2 onclick=ans2()>12</button><br />",
+
+    "What is 7 / 7?<br /><button class=blue_button id=hide1 onclick=ans1()>1</button><br /><button class=blue_button id=hide2 onclick=ans2()>3</button><br />",
+
+    "What is 8 * 8?<br /><button class=blue_button id=hide2 onclick=ans2()>20</button><br /><button class=blue_button id=hide1 onclick=ans1()>64</button><br />",
+
+    "What is 9 * 9?<br /><button class=blue_button id=hide2 onclick=ans2()>80</button><br /><button class=blue_button id=hide1 onclick=ans1()>81</button><br />",
+
+    "What is 10 + 1?<br /><button class=blue_button id=hide2 onclick=ans2()>10</button><br /><button class=blue_button id=hide1 onclick=ans1()>11</button><br />",
+
+    "What is 10 * 10?<br /><button class=blue_button id=hide2 onclick=ans2()>1000</button><br /><button class=blue_button id=hide1 onclick=ans1()>100</button><br />",
+    
+    
+
+
+    "What is 6 / 6?<br /><button class=blue_button id=hide1 onclick=ans1()>1</button><br /><button class=blue_button id=hide2 onclick=ans2()>36</button><br />",
+
+"What is 14 / 7?<br /><button class=blue_button id=hide1 onclick=ans1()>2</button><br /><button class=blue_button id=hide2 onclick=ans2()>1</button><br />",
+
+"What is 8 / 8?<br /><button class=blue_button id=hide2 onclick=ans2()>11</button><br /><button class=blue_button id=hide1 onclick=ans1()>1</button><br />",
+
+"What is 9 / 9?<br /><button class=blue_button id=hide2 onclick=ans2()>10</button><br /><button class=blue_button id=hide1 onclick=ans1()>1</button><br />",
+
+"What is 50+ 1?<br /><button class=blue_button id=hide2 onclick=ans2()>15</button><br /><button class=blue_button id=hide1 onclick=ans1()>51</button><br />",
+
+"What is 10 / 10?<br /><button class=blue_button id=hide2 onclick=ans2()>11</button><br /><button class=blue_button id=hide1 onclick=ans1()>1</button><br />",
+    ];
+
+    var x = 0;
+    x++;
+
+    var y = 0;
+    y++;
+
+    var z = 0;
+    z++;
+
+    function shuffle(items1) {
+       
+
+        var elements = items1.length, items2, items3
+
+        while (elements > 0) {
+            items3 = Math.floor(Math.random() * elements);
+            elements--;
+
+            items2 = items1[elements];
+            items1[elements] = items1[items3];
+            items1[items3] = items2;
+            
+            
+        }
+
+        return items1;
+    }
+
+    shuffle(numbers);
+
+    function btn() {
+        x++;
+        question1.innerHTML = y++;
+        disappear.innerHTML = "";
+        message2.innerHTML = numbers.shift();
+        next1.innerHTML = "";
+    }
+
+    function ans1() {
+        score1.innerHTML = z++;
+        result1.innerHTML = "<div id=green1>" + "Correct" + "</div>";
+        hide1.style.background = "green";
+        hide1.disabled = true;
+        hide2.disabled = true;
+        next1.innerHTML = "<button class=blue_button onclick=new1()>Next</button>";
+    }
+
+    function ans2() {
+        result1.innerHTML = "<div id=red1>" + "Incorrect" + "</div>";
+        hide1.style.background = "green";
+        hide2.style.background = "red";
+        hide1.disabled = true;
+        hide2.disabled = true;
+        next1.innerHTML = "<button class=blue_button onclick=new1()>Next</button>";
+    }
+
+    function new1() {
+        next1.innerHTML = "";
+        x++;
+        question1.innerHTML = y++;
+        message2.innerHTML = numbers.shift();
+        result1.innerHTML = "";
+        if (x > 11) {
+            message2.innerHTML = "End of Quiz";
+            question1.innerHTML = (y - 2);
+            next1.innerHTML = "<button class=blue_button onclick=repeat1() class='btn btn-danger'>Repeat</button>";
+        }
+    }
+
+    function repeat1() {
+        location.reload();
+    }
+
+    function timer(){
+var sec = 30;
+var timer = setInterval(function(){
+    document.getElementById('safeTimerDisplay').innerHTML='00:'+sec;
+    sec--;
+    if (sec < 0) {
+        clearInterval(timer);
+        document.getElementById('mcq').submit();
+            
+    }
+}, 1000);
+}
+
+</script>
+
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>
