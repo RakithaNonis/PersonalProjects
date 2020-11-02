@@ -1,0 +1,13 @@
+E:\private practice\C#\PracticeC\OOPusage\OOPusage\bin\Debug\netcoreapp3.1\OOPusage.exe
+E:\private practice\C#\PracticeC\OOPusage\OOPusage\bin\Debug\netcoreapp3.1\OOPusage.deps.json
+E:\private practice\C#\PracticeC\OOPusage\OOPusage\bin\Debug\netcoreapp3.1\OOPusage.runtimeconfig.json
+E:\private practice\C#\PracticeC\OOPusage\OOPusage\bin\Debug\netcoreapp3.1\OOPusage.runtimeconfig.dev.json
+E:\private practice\C#\PracticeC\OOPusage\OOPusage\bin\Debug\netcoreapp3.1\OOPusage.dll
+E:\private practice\C#\PracticeC\OOPusage\OOPusage\bin\Debug\netcoreapp3.1\OOPusage.pdb
+E:\private practice\C#\PracticeC\OOPusage\OOPusage\obj\Debug\netcoreapp3.1\OOPusage.csprojAssemblyReference.cache
+E:\private practice\C#\PracticeC\OOPusage\OOPusage\obj\Debug\netcoreapp3.1\OOPusage.AssemblyInfoInputs.cache
+E:\private practice\C#\PracticeC\OOPusage\OOPusage\obj\Debug\netcoreapp3.1\OOPusage.AssemblyInfo.cs
+E:\private practice\C#\PracticeC\OOPusage\OOPusage\obj\Debug\netcoreapp3.1\OOPusage.csproj.CoreCompileInputs.cache
+E:\private practice\C#\PracticeC\OOPusage\OOPusage\obj\Debug\netcoreapp3.1\OOPusage.dll
+E:\private practice\C#\PracticeC\OOPusage\OOPusage\obj\Debug\netcoreapp3.1\OOPusage.pdb
+E:\private practice\C#\PracticeC\OOPusage\OOPusage\obj\Debug\netcoreapp3.1\OOPusage.genruntimeconfig.cache

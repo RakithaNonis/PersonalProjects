@@ -1,0 +1,13 @@
+﻿@model MVCapp.Models.Combine
+@{
+    ViewBag.Title = "Test";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.movie.Name</h2>
+@foreach (var item in Model.customer)
+{
+    <p>@item.Id</p>
+    <p>@item.Name</p><br />
+
+}

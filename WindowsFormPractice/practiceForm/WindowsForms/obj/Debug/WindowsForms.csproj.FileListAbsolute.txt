@@ -1,0 +1,13 @@
+E:\private practice\C#\WindowsFormPractice\practiceForm\WindowsForms\bin\Debug\WindowsForms.exe.config
+E:\private practice\C#\WindowsFormPractice\practiceForm\WindowsForms\bin\Debug\WindowsForms.exe
+E:\private practice\C#\WindowsFormPractice\practiceForm\WindowsForms\bin\Debug\WindowsForms.pdb
+E:\private practice\C#\WindowsFormPractice\practiceForm\WindowsForms\obj\Debug\WindowsForms.csprojAssemblyReference.cache
+E:\private practice\C#\WindowsFormPractice\practiceForm\WindowsForms\obj\Debug\WindowsForms.Form1.resources
+E:\private practice\C#\WindowsFormPractice\practiceForm\WindowsForms\obj\Debug\WindowsForms.Properties.Resources.resources
+E:\private practice\C#\WindowsFormPractice\practiceForm\WindowsForms\obj\Debug\WindowsForms.csproj.GenerateResource.cache
+E:\private practice\C#\WindowsFormPractice\practiceForm\WindowsForms\obj\Debug\WindowsForms.csproj.CoreCompileInputs.cache
+E:\private practice\C#\WindowsFormPractice\practiceForm\WindowsForms\obj\Debug\WindowsForms.exe
+E:\private practice\C#\WindowsFormPractice\practiceForm\WindowsForms\obj\Debug\WindowsForms.pdb
+E:\private practice\C#\WindowsFormPractice\practiceForm\WindowsForms\obj\Debug\WindowsForms.LoginForm.resources
+E:\private practice\C#\WindowsFormPractice\practiceForm\WindowsForms\obj\Debug\WindowsForms.Form2.resources
+E:\private practice\C#\WindowsFormPractice\practiceForm\WindowsForms\obj\Debug\WindowsForms.Confirmation.resources

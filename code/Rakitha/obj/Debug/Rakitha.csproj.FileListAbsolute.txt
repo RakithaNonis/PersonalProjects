@@ -1,0 +1,12 @@
+E:\private practice\C#\Rakitha\Rakitha\bin\Debug\Rakitha.exe.config
+E:\private practice\C#\Rakitha\Rakitha\bin\Debug\Rakitha.exe
+E:\private practice\C#\Rakitha\Rakitha\bin\Debug\Rakitha.pdb
+E:\private practice\C#\Rakitha\Rakitha\obj\Debug\Rakitha.csprojAssemblyReference.cache
+E:\private practice\C#\Rakitha\Rakitha\obj\Debug\Rakitha.csproj.CoreCompileInputs.cache
+E:\private practice\C#\Rakitha\Rakitha\obj\Debug\Rakitha.exe
+E:\private practice\C#\Rakitha\Rakitha\obj\Debug\Rakitha.pdb
+E:\private practice\C#\Rakitha\Rakitha\bin\Debug\MySql.Data.dll
+E:\private practice\C#\Rakitha\Rakitha\bin\Debug\Google.Protobuf.dll
+E:\private practice\C#\Rakitha\Rakitha\bin\Debug\BouncyCastle.Crypto.dll
+E:\private practice\C#\Rakitha\Rakitha\bin\Debug\Renci.SshNet.dll
+E:\private practice\C#\Rakitha\Rakitha\obj\Debug\Rakitha.csproj.CopyComplete

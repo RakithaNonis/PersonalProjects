@@ -1,0 +1,7 @@
+E:\private practice\C#\MVC practice\MVC\MVC\bin\Debug\MVC.exe.config
+E:\private practice\C#\MVC practice\MVC\MVC\bin\Debug\MVC.exe
+E:\private practice\C#\MVC practice\MVC\MVC\bin\Debug\MVC.pdb
+E:\private practice\C#\MVC practice\MVC\MVC\obj\Debug\MVC.csprojAssemblyReference.cache
+E:\private practice\C#\MVC practice\MVC\MVC\obj\Debug\MVC.csproj.CoreCompileInputs.cache
+E:\private practice\C#\MVC practice\MVC\MVC\obj\Debug\MVC.exe
+E:\private practice\C#\MVC practice\MVC\MVC\obj\Debug\MVC.pdb

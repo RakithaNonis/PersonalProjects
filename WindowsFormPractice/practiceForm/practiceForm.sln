@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms", "WindowsForms\WindowsForms.csproj", "{AD6EF6E8-ADB5-47FA-BD4D-1A3EF2E339DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimePicker", "DateTimePicker\DateTimePicker.csproj", "{8CE90173-40AA-4802-BC04-890A0844776B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioBtns", "RadioBtns\RadioBtns.csproj", "{17E8AF64-A6D3-4DB3-A116-7F31A37011C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogBox", "DialogBox\DialogBox.csproj", "{EDC0A8C5-2D84-477A-8D69-7AF163766A9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD6EF6E8-ADB5-47FA-BD4D-1A3EF2E339DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD6EF6E8-ADB5-47FA-BD4D-1A3EF2E339DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD6EF6E8-ADB5-47FA-BD4D-1A3EF2E339DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD6EF6E8-ADB5-47FA-BD4D-1A3EF2E339DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE90173-40AA-4802-BC04-890A0844776B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE90173-40AA-4802-BC04-890A0844776B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE90173-40AA-4802-BC04-890A0844776B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE90173-40AA-4802-BC04-890A0844776B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E8AF64-A6D3-4DB3-A116-7F31A37011C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E8AF64-A6D3-4DB3-A116-7F31A37011C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E8AF64-A6D3-4DB3-A116-7F31A37011C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E8AF64-A6D3-4DB3-A116-7F31A37011C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC0A8C5-2D84-477A-8D69-7AF163766A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC0A8C5-2D84-477A-8D69-7AF163766A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC0A8C5-2D84-477A-8D69-7AF163766A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC0A8C5-2D84-477A-8D69-7AF163766A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {683ECD79-D021-4582-A436-206C2CAEB787}
+	EndGlobalSection
+EndGlobal

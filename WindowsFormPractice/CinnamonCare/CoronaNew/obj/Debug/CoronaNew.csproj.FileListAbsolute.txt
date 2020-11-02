@@ -1,0 +1,10 @@
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CoronaNew\obj\Debug\CoronaNew.csprojAssemblyReference.cache
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CoronaNew\obj\Debug\CoronaNew.Properties.Resources.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CoronaNew\obj\Debug\CoronaNew.View.Display.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CoronaNew\obj\Debug\CoronaNew.View.Info.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CoronaNew\obj\Debug\CoronaNew.View.Login.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CoronaNew\obj\Debug\CoronaNew.View.Main.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CoronaNew\obj\Debug\CoronaNew.View.Medical.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CoronaNew\obj\Debug\CoronaNew.View.Update.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CoronaNew\obj\Debug\CoronaNew.csproj.GenerateResource.cache
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CoronaNew\obj\Debug\CoronaNew.csproj.CoreCompileInputs.cache

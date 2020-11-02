@@ -1,0 +1,13 @@
+E:\private practice\C#\PracticeC\PracticeC\bin\Debug\netcoreapp3.1\PracticeC.exe
+E:\private practice\C#\PracticeC\PracticeC\bin\Debug\netcoreapp3.1\PracticeC.deps.json
+E:\private practice\C#\PracticeC\PracticeC\bin\Debug\netcoreapp3.1\PracticeC.runtimeconfig.json
+E:\private practice\C#\PracticeC\PracticeC\bin\Debug\netcoreapp3.1\PracticeC.runtimeconfig.dev.json
+E:\private practice\C#\PracticeC\PracticeC\bin\Debug\netcoreapp3.1\PracticeC.dll
+E:\private practice\C#\PracticeC\PracticeC\bin\Debug\netcoreapp3.1\PracticeC.pdb
+E:\private practice\C#\PracticeC\PracticeC\obj\Debug\netcoreapp3.1\PracticeC.csprojAssemblyReference.cache
+E:\private practice\C#\PracticeC\PracticeC\obj\Debug\netcoreapp3.1\PracticeC.AssemblyInfoInputs.cache
+E:\private practice\C#\PracticeC\PracticeC\obj\Debug\netcoreapp3.1\PracticeC.AssemblyInfo.cs
+E:\private practice\C#\PracticeC\PracticeC\obj\Debug\netcoreapp3.1\PracticeC.csproj.CoreCompileInputs.cache
+E:\private practice\C#\PracticeC\PracticeC\obj\Debug\netcoreapp3.1\PracticeC.dll
+E:\private practice\C#\PracticeC\PracticeC\obj\Debug\netcoreapp3.1\PracticeC.pdb
+E:\private practice\C#\PracticeC\PracticeC\obj\Debug\netcoreapp3.1\PracticeC.genruntimeconfig.cache

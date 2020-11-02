@@ -1,0 +1,10 @@
+E:\private practice\C#\WindowsFormPractice\practiceForm\RadioBtns\bin\Debug\RadioBtns.exe.config
+E:\private practice\C#\WindowsFormPractice\practiceForm\RadioBtns\bin\Debug\RadioBtns.exe
+E:\private practice\C#\WindowsFormPractice\practiceForm\RadioBtns\bin\Debug\RadioBtns.pdb
+E:\private practice\C#\WindowsFormPractice\practiceForm\RadioBtns\obj\Debug\RadioBtns.csprojAssemblyReference.cache
+E:\private practice\C#\WindowsFormPractice\practiceForm\RadioBtns\obj\Debug\RadioBtns.Form1.resources
+E:\private practice\C#\WindowsFormPractice\practiceForm\RadioBtns\obj\Debug\RadioBtns.Properties.Resources.resources
+E:\private practice\C#\WindowsFormPractice\practiceForm\RadioBtns\obj\Debug\RadioBtns.csproj.GenerateResource.cache
+E:\private practice\C#\WindowsFormPractice\practiceForm\RadioBtns\obj\Debug\RadioBtns.csproj.CoreCompileInputs.cache
+E:\private practice\C#\WindowsFormPractice\practiceForm\RadioBtns\obj\Debug\RadioBtns.exe
+E:\private practice\C#\WindowsFormPractice\practiceForm\RadioBtns\obj\Debug\RadioBtns.pdb

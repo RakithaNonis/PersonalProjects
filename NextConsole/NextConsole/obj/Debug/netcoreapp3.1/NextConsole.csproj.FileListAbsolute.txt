@@ -1,0 +1,13 @@
+E:\private practice\C#\NextConsole\NextConsole\bin\Debug\netcoreapp3.1\NextConsole.exe
+E:\private practice\C#\NextConsole\NextConsole\bin\Debug\netcoreapp3.1\NextConsole.deps.json
+E:\private practice\C#\NextConsole\NextConsole\bin\Debug\netcoreapp3.1\NextConsole.runtimeconfig.json
+E:\private practice\C#\NextConsole\NextConsole\bin\Debug\netcoreapp3.1\NextConsole.runtimeconfig.dev.json
+E:\private practice\C#\NextConsole\NextConsole\bin\Debug\netcoreapp3.1\NextConsole.dll
+E:\private practice\C#\NextConsole\NextConsole\bin\Debug\netcoreapp3.1\NextConsole.pdb
+E:\private practice\C#\NextConsole\NextConsole\obj\Debug\netcoreapp3.1\NextConsole.csprojAssemblyReference.cache
+E:\private practice\C#\NextConsole\NextConsole\obj\Debug\netcoreapp3.1\NextConsole.AssemblyInfoInputs.cache
+E:\private practice\C#\NextConsole\NextConsole\obj\Debug\netcoreapp3.1\NextConsole.AssemblyInfo.cs
+E:\private practice\C#\NextConsole\NextConsole\obj\Debug\netcoreapp3.1\NextConsole.csproj.CoreCompileInputs.cache
+E:\private practice\C#\NextConsole\NextConsole\obj\Debug\netcoreapp3.1\NextConsole.dll
+E:\private practice\C#\NextConsole\NextConsole\obj\Debug\netcoreapp3.1\NextConsole.pdb
+E:\private practice\C#\NextConsole\NextConsole\obj\Debug\netcoreapp3.1\NextConsole.genruntimeconfig.cache

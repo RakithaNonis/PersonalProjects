@@ -1,0 +1,12 @@
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonLife\bin\Debug\CinnamonLife.exe.config
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonLife\bin\Debug\CinnamonLife.exe
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonLife\bin\Debug\CinnamonLife.pdb
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonLife\obj\Debug\CinnamonLife.csprojAssemblyReference.cache
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonLife\obj\Debug\CinnamonLife.Properties.Resources.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonLife\obj\Debug\CinnamonLife.View.Details.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonLife\obj\Debug\CinnamonLife.View.Display.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonLife\obj\Debug\CinnamonLife.View.Login.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonLife\obj\Debug\CinnamonLife.csproj.GenerateResource.cache
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonLife\obj\Debug\CinnamonLife.csproj.CoreCompileInputs.cache
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonLife\obj\Debug\CinnamonLife.exe
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonLife\obj\Debug\CinnamonLife.pdb

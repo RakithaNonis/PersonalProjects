@@ -1,0 +1,15 @@
+E:\private practice\C#\WindowsFormPractice\Corona\bin\Debug\Corona.exe.config
+E:\private practice\C#\WindowsFormPractice\Corona\bin\Debug\Corona.exe
+E:\private practice\C#\WindowsFormPractice\Corona\bin\Debug\Corona.pdb
+E:\private practice\C#\WindowsFormPractice\Corona\obj\Debug\Corona.csprojAssemblyReference.cache
+E:\private practice\C#\WindowsFormPractice\Corona\obj\Debug\Corona.Properties.Resources.resources
+E:\private practice\C#\WindowsFormPractice\Corona\obj\Debug\Corona.csproj.GenerateResource.cache
+E:\private practice\C#\WindowsFormPractice\Corona\obj\Debug\Corona.csproj.CoreCompileInputs.cache
+E:\private practice\C#\WindowsFormPractice\Corona\obj\Debug\Corona.exe
+E:\private practice\C#\WindowsFormPractice\Corona\obj\Debug\Corona.pdb
+E:\private practice\C#\WindowsFormPractice\Corona\obj\Debug\Corona.View.Main.resources
+E:\private practice\C#\WindowsFormPractice\Corona\obj\Debug\Corona.View.Display.resources
+E:\private practice\C#\WindowsFormPractice\Corona\obj\Debug\Corona.View.Info.resources
+E:\private practice\C#\WindowsFormPractice\Corona\obj\Debug\Corona.View.Login.resources
+E:\private practice\C#\WindowsFormPractice\Corona\obj\Debug\Corona.View.Medical.resources
+E:\private practice\C#\WindowsFormPractice\Corona\obj\Debug\Corona.View.Update.resources

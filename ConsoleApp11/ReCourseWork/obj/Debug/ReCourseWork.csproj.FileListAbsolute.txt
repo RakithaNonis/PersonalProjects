@@ -1,0 +1,7 @@
+E:\private practice\C#\ConsoleApp11\ReCourseWork\bin\Debug\ReCourseWork.exe.config
+E:\private practice\C#\ConsoleApp11\ReCourseWork\bin\Debug\ReCourseWork.exe
+E:\private practice\C#\ConsoleApp11\ReCourseWork\bin\Debug\ReCourseWork.pdb
+E:\private practice\C#\ConsoleApp11\ReCourseWork\obj\Debug\ReCourseWork.csprojAssemblyReference.cache
+E:\private practice\C#\ConsoleApp11\ReCourseWork\obj\Debug\ReCourseWork.csproj.CoreCompileInputs.cache
+E:\private practice\C#\ConsoleApp11\ReCourseWork\obj\Debug\ReCourseWork.exe
+E:\private practice\C#\ConsoleApp11\ReCourseWork\obj\Debug\ReCourseWork.pdb

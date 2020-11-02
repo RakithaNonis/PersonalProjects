@@ -1,0 +1,12 @@
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\CoronaCareApp\obj\Debug\CoronaCareApp.Properties.Resources.resources
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\CoronaCareApp\obj\Debug\CoronaCareApp.View.Display.resources
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\CoronaCareApp\obj\Debug\CoronaCareApp.View.Login.resources
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\CoronaCareApp\obj\Debug\CoronaCareApp.csproj.GenerateResource.cache
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\CoronaCareApp\obj\Debug\CoronaCareApp.csproj.CoreCompileInputs.cache
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\CoronaCareApp\bin\Debug\CoronaCareApp.exe.config
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\CoronaCareApp\bin\Debug\CoronaCareApp.exe
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\CoronaCareApp\bin\Debug\CoronaCareApp.pdb
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\CoronaCareApp\obj\Debug\CoronaCareApp.exe
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\CoronaCareApp\obj\Debug\CoronaCareApp.pdb
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\CoronaCareApp\obj\Debug\CoronaCareApp.csprojAssemblyReference.cache
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\CoronaCareApp\obj\Debug\CoronaCareApp.View.Infors.resources

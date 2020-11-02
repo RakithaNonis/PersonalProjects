@@ -1,0 +1,6 @@
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\SelfCare\obj\Debug\SelfCare.csprojAssemblyReference.cache
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\SelfCare\obj\Debug\SelfCare.Properties.Resources.resources
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\SelfCare\obj\Debug\SelfCare.View.DisplayForm.resources
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\SelfCare\obj\Debug\SelfCare.View.LoginForm.resources
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\SelfCare\obj\Debug\SelfCare.csproj.GenerateResource.cache
+E:\private practice\C#\WindowsFormPractice\SelfCareSolution\SelfCare\obj\Debug\SelfCare.csproj.CoreCompileInputs.cache

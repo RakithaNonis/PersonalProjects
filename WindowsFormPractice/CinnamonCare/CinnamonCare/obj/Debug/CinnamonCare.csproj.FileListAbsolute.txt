@@ -1,0 +1,16 @@
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonCare\bin\Debug\CinnamonCare.exe.config
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonCare\bin\Debug\CinnamonCare.exe
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonCare\bin\Debug\CinnamonCare.pdb
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonCare\obj\Debug\CinnamonCare.csprojAssemblyReference.cache
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonCare\obj\Debug\CinnamonCare.Properties.Resources.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonCare\obj\Debug\CinnamonCare.View.Display.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonCare\obj\Debug\CinnamonCare.View.Info.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonCare\obj\Debug\CinnamonCare.View.Login.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonCare\obj\Debug\CinnamonCare.View.Medical.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonCare\obj\Debug\CinnamonCare.csproj.GenerateResource.cache
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonCare\obj\Debug\CinnamonCare.csproj.CoreCompileInputs.cache
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonCare\obj\Debug\CinnamonCare.exe
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonCare\obj\Debug\CinnamonCare.pdb
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonCare\obj\Debug\CinnamonCare.View.Main.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonCare\obj\Debug\CinnamonCare.View.Update.resources
+E:\private practice\C#\WindowsFormPractice\CinnamonCare\CinnamonCare\obj\Debug\CinnamonCare.View.Major.resources
