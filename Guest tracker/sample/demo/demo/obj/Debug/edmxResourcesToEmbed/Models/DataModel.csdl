@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CareModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Checkin">
+    <Key>
+      <PropertyRef Name="CheckinId" />
+    </Key>
+    <Property Name="CheckinId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CheckinDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="HotelCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EntranceId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Entrance" Relationship="Self.FK_Checkin_Entrance" FromRole="Checkin" ToRole="Entrance" />
+    <NavigationProperty Name="Guest" Relationship="Self.FK_Checkin_Guest" FromRole="Checkin" ToRole="Guest" />
+    <NavigationProperty Name="Hotel" Relationship="Self.FK_Checkin_Hotel" FromRole="Checkin" ToRole="Hotel" />
+    <NavigationProperty Name="GuestSymptoms" Relationship="Self.FK_GuestSymptom_Checkin" FromRole="Checkin" ToRole="GuestSymptom" />
+    <NavigationProperty Name="Temperatures" Relationship="Self.FK_Temperature_Checkin" FromRole="Checkin" ToRole="Temperature" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="CountryCode" />
+    </Key>
+    <Property Name="CountryCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CountryName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Guests" Relationship="Self.FK_Guest_Country" FromRole="Country" ToRole="Guest" />
+  </EntityType>
+  <EntityType Name="Entrance">
+    <Key>
+      <PropertyRef Name="EntranceId" />
+    </Key>
+    <Property Name="EntranceId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EntranceName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Checkins" Relationship="Self.FK_Checkin_Entrance" FromRole="Entrance" ToRole="Checkin" />
+  </EntityType>
+  <EntityType Name="Guest">
+    <Key>
+      <PropertyRef Name="PhoneNumber" />
+    </Key>
+    <Property Name="PhoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TitleId" Type="Int32" Nullable="false" />
+    <Property Name="CountryCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RegistrationDate" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Checkins" Relationship="Self.FK_Checkin_Guest" FromRole="Guest" ToRole="Checkin" />
+    <NavigationProperty Name="Country" Relationship="Self.FK_Guest_Country" FromRole="Guest" ToRole="Country" />
+    <NavigationProperty Name="Title" Relationship="Self.FK_Guest_Title" FromRole="Guest" ToRole="Title" />
+  </EntityType>
+  <EntityType Name="GuestSymptom">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SymptomId" Type="Int32" Nullable="false" />
+    <Property Name="CheckinId" Type="Int32" />
+    <NavigationProperty Name="Checkin" Relationship="Self.FK_GuestSymptom_Checkin" FromRole="GuestSymptom" ToRole="Checkin" />
+    <NavigationProperty Name="Symptom" Relationship="Self.FK_GuestSymptom_Symptom" FromRole="GuestSymptom" ToRole="Symptom" />
+  </EntityType>
+  <EntityType Name="Hotel">
+    <Key>
+      <PropertyRef Name="HotelCode" />
+    </Key>
+    <Property Name="HotelCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="HotelName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Checkins" Relationship="Self.FK_Checkin_Hotel" FromRole="Hotel" ToRole="Checkin" />
+  </EntityType>
+  <EntityType Name="Symptom">
+    <Key>
+      <PropertyRef Name="SymptomId" />
+    </Key>
+    <Property Name="SymptomId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SymptomName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="GuestSymptoms" Relationship="Self.FK_GuestSymptom_Symptom" FromRole="Symptom" ToRole="GuestSymptom" />
+  </EntityType>
+  <EntityType Name="Temperature">
+    <Key>
+      <PropertyRef Name="TemperatureId" />
+    </Key>
+    <Property Name="TemperatureId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TableNumber" Type="Boolean" />
+    <Property Name="TemperatureValue" Type="Boolean" />
+    <Property Name="CheckinId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Checkin" Relationship="Self.FK_Temperature_Checkin" FromRole="Temperature" ToRole="Checkin" />
+  </EntityType>
+  <EntityType Name="Title">
+    <Key>
+      <PropertyRef Name="TitleId" />
+    </Key>
+    <Property Name="TitleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TitleName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Guests" Relationship="Self.FK_Guest_Title" FromRole="Title" ToRole="Guest" />
+  </EntityType>
+  <Association Name="FK_Checkin_Entrance">
+    <End Role="Entrance" Type="Self.Entrance" Multiplicity="1" />
+    <End Role="Checkin" Type="Self.Checkin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entrance">
+        <PropertyRef Name="EntranceId" />
+      </Principal>
+      <Dependent Role="Checkin">
+        <PropertyRef Name="EntranceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Checkin_Guest">
+    <End Role="Guest" Type="Self.Guest" Multiplicity="1" />
+    <End Role="Checkin" Type="Self.Checkin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Guest">
+        <PropertyRef Name="PhoneNumber" />
+      </Principal>
+      <Dependent Role="Checkin">
+        <PropertyRef Name="PhoneNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Checkin_Hotel">
+    <End Role="Hotel" Type="Self.Hotel" Multiplicity="1" />
+    <End Role="Checkin" Type="Self.Checkin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Hotel">
+        <PropertyRef Name="HotelCode" />
+      </Principal>
+      <Dependent Role="Checkin">
+        <PropertyRef Name="HotelCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GuestSymptom_Checkin">
+    <End Role="Checkin" Type="Self.Checkin" Multiplicity="0..1" />
+    <End Role="GuestSymptom" Type="Self.GuestSymptom" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Checkin">
+        <PropertyRef Name="CheckinId" />
+      </Principal>
+      <Dependent Role="GuestSymptom">
+        <PropertyRef Name="CheckinId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Temperature_Checkin">
+    <End Role="Checkin" Type="Self.Checkin" Multiplicity="1" />
+    <End Role="Temperature" Type="Self.Temperature" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Checkin">
+        <PropertyRef Name="CheckinId" />
+      </Principal>
+      <Dependent Role="Temperature">
+        <PropertyRef Name="CheckinId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Guest_Country">
+    <End Role="Country" Type="Self.Country" Multiplicity="1" />
+    <End Role="Guest" Type="Self.Guest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="CountryCode" />
+      </Principal>
+      <Dependent Role="Guest">
+        <PropertyRef Name="CountryCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Guest_Title">
+    <End Role="Title" Type="Self.Title" Multiplicity="1" />
+    <End Role="Guest" Type="Self.Guest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Title">
+        <PropertyRef Name="TitleId" />
+      </Principal>
+      <Dependent Role="Guest">
+        <PropertyRef Name="TitleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GuestSymptom_Symptom">
+    <End Role="Symptom" Type="Self.Symptom" Multiplicity="1" />
+    <End Role="GuestSymptom" Type="Self.GuestSymptom" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Symptom">
+        <PropertyRef Name="SymptomId" />
+      </Principal>
+      <Dependent Role="GuestSymptom">
+        <PropertyRef Name="SymptomId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DataEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Checkins" EntityType="Self.Checkin" />
+    <EntitySet Name="Countries" EntityType="Self.Country" />
+    <EntitySet Name="Entrances" EntityType="Self.Entrance" />
+    <EntitySet Name="Guests" EntityType="Self.Guest" />
+    <EntitySet Name="GuestSymptoms" EntityType="Self.GuestSymptom" />
+    <EntitySet Name="Hotels" EntityType="Self.Hotel" />
+    <EntitySet Name="Symptoms" EntityType="Self.Symptom" />
+    <EntitySet Name="Temperatures" EntityType="Self.Temperature" />
+    <EntitySet Name="Titles" EntityType="Self.Title" />
+    <AssociationSet Name="FK_Checkin_Entrance" Association="Self.FK_Checkin_Entrance">
+      <End Role="Entrance" EntitySet="Entrances" />
+      <End Role="Checkin" EntitySet="Checkins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Checkin_Guest" Association="Self.FK_Checkin_Guest">
+      <End Role="Guest" EntitySet="Guests" />
+      <End Role="Checkin" EntitySet="Checkins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Checkin_Hotel" Association="Self.FK_Checkin_Hotel">
+      <End Role="Hotel" EntitySet="Hotels" />
+      <End Role="Checkin" EntitySet="Checkins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GuestSymptom_Checkin" Association="Self.FK_GuestSymptom_Checkin">
+      <End Role="Checkin" EntitySet="Checkins" />
+      <End Role="GuestSymptom" EntitySet="GuestSymptoms" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Temperature_Checkin" Association="Self.FK_Temperature_Checkin">
+      <End Role="Checkin" EntitySet="Checkins" />
+      <End Role="Temperature" EntitySet="Temperatures" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Guest_Country" Association="Self.FK_Guest_Country">
+      <End Role="Country" EntitySet="Countries" />
+      <End Role="Guest" EntitySet="Guests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Guest_Title" Association="Self.FK_Guest_Title">
+      <End Role="Title" EntitySet="Titles" />
+      <End Role="Guest" EntitySet="Guests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GuestSymptom_Symptom" Association="Self.FK_GuestSymptom_Symptom">
+      <End Role="Symptom" EntitySet="Symptoms" />
+      <End Role="GuestSymptom" EntitySet="GuestSymptoms" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

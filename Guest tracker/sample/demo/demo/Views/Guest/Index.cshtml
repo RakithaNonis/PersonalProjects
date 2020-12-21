@@ -1,0 +1,68 @@
+﻿@using demo.Models
+@model ViewModel
+
+<style>
+    body {
+        background-image: url(/Content/Imagers/source1.gif);
+        background-size: 80%;
+    }
+</style>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Guest Landing Page</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.guestList.PhoneNumber, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.guestList.PhoneNumber, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.guestList.PhoneNumber, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.checkinList.HotelCode, "Guest Hotel", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.checkinList.HotelCode, (SelectList)ViewBag.HotelCode, htmlAttributes: new { @class = "form-control" })
+
+                @Html.ValidationMessageFor(model => model.checkinList.HotelCode, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.checkinList.CheckinDate, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.checkinList.CheckinDate, new { htmlAttributes = new { @class = "form-control", @type = "date" } })
+                @Html.ValidationMessageFor(model => model.checkinList.CheckinDate, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.checkinList.EntranceId, "Guest Entrance", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.checkinList.EntranceId, (SelectList)ViewBag.EntranceId, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.checkinList.EntranceId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Proceed" class="btn btn-info" />
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+}

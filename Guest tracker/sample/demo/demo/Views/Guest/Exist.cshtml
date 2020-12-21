@@ -1,0 +1,44 @@
+﻿@model demo.Models.Guest
+@{
+    ViewBag.Title = "View";
+}
+
+<h2>Welcome back to Cinnamon hotels</h2>
+
+<dl class="dl-horizontal">
+    <p> Welcome back to Cinnamon Hotels @Html.DisplayFor(model => model.Title.TitleName) @Html.DisplayFor(model => model.Name)</p>
+    <dt>
+        @Html.DisplayNameFor(model => model.Name)
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.Name)
+    </dd>
+
+    <dt>
+        @Html.DisplayNameFor(model => model.RegistrationDate)
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.RegistrationDate)
+    </dd>
+
+    <dt>
+        @Html.DisplayNameFor(model => model.Country.CountryName)
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.Country.CountryName)
+    </dd>
+
+    <dt>
+        @Html.DisplayNameFor(model => model.Title.TitleName)
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.Title.TitleName)
+    </dd>
+
+</dl>
+
+@Html.ActionLink("Click to the entrance requirments","data","Temperature")

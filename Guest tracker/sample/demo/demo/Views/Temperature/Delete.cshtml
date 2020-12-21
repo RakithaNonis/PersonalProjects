@@ -1,0 +1,48 @@
+﻿@model demo.Models.Temperature
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Temperature</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TableNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TableNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TemperatureValue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TemperatureValue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Checkin.HotelCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Checkin.HotelCode)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

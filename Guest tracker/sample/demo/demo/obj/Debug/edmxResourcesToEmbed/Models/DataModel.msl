@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CareModelStoreContainer" CdmEntityContainer="DataEntities">
+    <EntitySetMapping Name="Checkins">
+      <EntityTypeMapping TypeName="CareModel.Checkin">
+        <MappingFragment StoreEntitySet="Checkin">
+          <ScalarProperty Name="CheckinId" ColumnName="CheckinId" />
+          <ScalarProperty Name="CheckinDate" ColumnName="CheckinDate" />
+          <ScalarProperty Name="HotelCode" ColumnName="HotelCode" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="EntranceId" ColumnName="EntranceId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Countries">
+      <EntityTypeMapping TypeName="CareModel.Country">
+        <MappingFragment StoreEntitySet="Country">
+          <ScalarProperty Name="CountryCode" ColumnName="CountryCode" />
+          <ScalarProperty Name="CountryName" ColumnName="CountryName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Entrances">
+      <EntityTypeMapping TypeName="CareModel.Entrance">
+        <MappingFragment StoreEntitySet="Entrance">
+          <ScalarProperty Name="EntranceId" ColumnName="EntranceId" />
+          <ScalarProperty Name="EntranceName" ColumnName="EntranceName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Guests">
+      <EntityTypeMapping TypeName="CareModel.Guest">
+        <MappingFragment StoreEntitySet="Guest">
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="TitleId" ColumnName="TitleId" />
+          <ScalarProperty Name="CountryCode" ColumnName="CountryCode" />
+          <ScalarProperty Name="RegistrationDate" ColumnName="RegistrationDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GuestSymptoms">
+      <EntityTypeMapping TypeName="CareModel.GuestSymptom">
+        <MappingFragment StoreEntitySet="GuestSymptom">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SymptomId" ColumnName="SymptomId" />
+          <ScalarProperty Name="CheckinId" ColumnName="CheckinId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Hotels">
+      <EntityTypeMapping TypeName="CareModel.Hotel">
+        <MappingFragment StoreEntitySet="Hotel">
+          <ScalarProperty Name="HotelCode" ColumnName="HotelCode" />
+          <ScalarProperty Name="HotelName" ColumnName="HotelName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Symptoms">
+      <EntityTypeMapping TypeName="CareModel.Symptom">
+        <MappingFragment StoreEntitySet="Symptom">
+          <ScalarProperty Name="SymptomId" ColumnName="SymptomId" />
+          <ScalarProperty Name="SymptomName" ColumnName="SymptomName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Temperatures">
+      <EntityTypeMapping TypeName="CareModel.Temperature">
+        <MappingFragment StoreEntitySet="Temperature">
+          <ScalarProperty Name="TemperatureId" ColumnName="TemperatureId" />
+          <ScalarProperty Name="TableNumber" ColumnName="TableNumber" />
+          <ScalarProperty Name="TemperatureValue" ColumnName="TemperatureValue" />
+          <ScalarProperty Name="CheckinId" ColumnName="CheckinId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Titles">
+      <EntityTypeMapping TypeName="CareModel.Title">
+        <MappingFragment StoreEntitySet="Title">
+          <ScalarProperty Name="TitleId" ColumnName="TitleId" />
+          <ScalarProperty Name="TitleName" ColumnName="TitleName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,36 @@
+﻿@using demo.Models
+@model Temperature
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>exist guest dual page </h2>
+
+@using (Html.BeginForm())
+{
+    <h4>Did you check your temperature ?</h4>
+    @Html.RadioButtonFor(model => model.IsCheked, "true", new { id = "yes" })
+    @Html.Label("YES", "yes")
+    <br />
+
+    @Html.RadioButtonFor(model => model.IsCheked, "false", new { id = "no" })
+    @Html.Label("NO", "no")
+    <br />
+    <br />
+    <h4>Did you got your table number ?</h4>
+    @Html.RadioButtonFor(model => model.IsSelected, "true", new { id = "yes" })
+    @Html.Label("YES", "yes")
+    <br />
+
+    @Html.RadioButtonFor(model => model.IsSelected, "false", new { id = "no" })
+    @Html.Label("NO", "no")
+    <br />
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Save" class="btn btn-info" onclick="alert" />
+        </div>
+    </div>
+}

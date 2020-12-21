@@ -1,0 +1,42 @@
+﻿@model demo.Models.Temperature
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Temperature</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TableNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TableNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TemperatureValue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TemperatureValue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Checkin.HotelCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Checkin.HotelCode)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TemperatureId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
