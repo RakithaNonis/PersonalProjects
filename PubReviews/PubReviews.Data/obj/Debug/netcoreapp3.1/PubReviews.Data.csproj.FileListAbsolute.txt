@@ -1,0 +1,13 @@
+C:\Officials\PubReviews\PubReviews.Data\obj\Debug\netcoreapp3.1\PubReviews.Data.csproj.AssemblyReference.cache
+C:\Officials\PubReviews\PubReviews.Data\obj\Debug\netcoreapp3.1\PubReviews.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Officials\PubReviews\PubReviews.Data\obj\Debug\netcoreapp3.1\PubReviews.Data.AssemblyInfoInputs.cache
+C:\Officials\PubReviews\PubReviews.Data\obj\Debug\netcoreapp3.1\PubReviews.Data.AssemblyInfo.cs
+C:\Officials\PubReviews\PubReviews.Data\obj\Debug\netcoreapp3.1\PubReviews.Data.csproj.CoreCompileInputs.cache
+C:\Officials\PubReviews\PubReviews.Data\bin\Debug\netcoreapp3.1\PubReviews.Data.deps.json
+C:\Officials\PubReviews\PubReviews.Data\bin\Debug\netcoreapp3.1\PubReviews.Data.dll
+C:\Officials\PubReviews\PubReviews.Data\bin\Debug\netcoreapp3.1\PubReviews.Data.pdb
+C:\Officials\PubReviews\PubReviews.Data\obj\Debug\netcoreapp3.1\PubReviews.Data.dll
+C:\Officials\PubReviews\PubReviews.Data\obj\Debug\netcoreapp3.1\PubReviews.Data.pdb
+C:\Officials\PubReviews\PubReviews.Data\bin\Debug\netcoreapp3.1\PubReviews.Data.runtimeconfig.json
+C:\Officials\PubReviews\PubReviews.Data\bin\Debug\netcoreapp3.1\PubReviews.Data.runtimeconfig.dev.json
+C:\Officials\PubReviews\PubReviews.Data\obj\Debug\netcoreapp3.1\PubReviews.Data.genruntimeconfig.cache
